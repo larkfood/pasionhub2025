@@ -1,0 +1,51 @@
+/*
+ * Social Media Colors
+ *
+ * Resources:
+ * https://brandcolors.net/
+ * https://www.jootoor.com/social-media-colors-hex-codes-rgb-sass/
+ * https://www.lockedownseo.com/social-media-colors/
+ * https://materialui.co/socialcolors
+ */
+
+html {
+	--facebook-color: #1877f2;
+	--facebook-old-color: #3b5998;
+	--twitter-color: #1da1f2;
+	--x-twitter-color: #000000;
+	--google-color: #4285f4;
+	--google-red-color: #ea4335;
+	--google-plus-color: #db4437;
+	--linkedin-color: #0a66c2;
+	
+	--youtube-color: #ff0000;
+	--tiktok-color: #010101;
+	--tiktok-pink-color: #ee1d52;
+	--vimeo-color: #1ab7ea;
+	--instagram-color: #e4405f;
+	--pinterest-color: #bd081c;
+	
+	--whatsapp-color: #25d366;
+	--snapchat-color: #fffc00;
+	--telegram-color: #0088cc;
+	--messenger-color: #0084ff;
+	--skype-color: #00aff0;
+	
+	--apple-color: #a6b1b7;
+	--apple-dark-color: #000000;
+	--apple-gray-color: #333333;
+	--android-color: #a4c639;
+	
+	--flickr-color: #f40083;
+	--flickr-blue-color: #006add;
+	--yahoo-color: #430297;
+	--slack-color: #4a154b;
+	--vk-color: #4a76a8;
+	--tumblr-color: #35465d;
+	--mastodon-color: #6364ff;
+	--odnoklassniki-color: #ed812b;
+	--pocket-color: #ee4056;
+	--reddit-color: #ff4500;
+	--microsoft-teams-color: #464CB3;
+	--viber-color: #59267c;
+}

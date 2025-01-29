@@ -1,0 +1,348 @@
+/*
+ * SocialMedia
+ * Copyright (c) BeDigit. All Rights Reserved
+ *
+ * Author: Mayeul Akpovi (BeDigit - https://bedigit.com)
+ */
+
+.social-media.social-share i,
+.social-media.social-links i {
+	font-size: 2rem !important;
+}
+
+/* facebook */
+.social-media .facebook {
+	color: var(--facebook-color) !important;
+}
+
+.social-media .btn-facebook {
+	background-color: var(--facebook-color) !important;
+}
+
+/* facebook-old */
+.social-media .facebook-old {
+	color: var(--facebook-old-color) !important;
+}
+
+.social-media .btn-facebook-old {
+	background-color: var(--facebook-old-color) !important;
+}
+
+/* twitter */
+.social-media .twitter {
+	color: var(--twitter-color) !important;
+}
+
+.social-media .btn-twitter {
+	background-color: var(--twitter-color) !important;
+}
+
+/* x-twitter */
+.social-media .x-twitter {
+	color: var(--x-twitter-color) !important;
+}
+
+.social-media .btn-x-twitter {
+	background-color: var(--x-twitter-color) !important;
+}
+
+/* google */
+.social-media .google {
+	color: var(--google-color) !important;
+}
+
+.social-media .btn-google {
+	background-color: var(--google-color) !important;
+}
+
+/* google-plus */
+.social-media .google-plus {
+	color: var(--google-plus-color) !important;
+}
+
+.social-media .btn-google-plus {
+	background-color: var(--google-plus-color) !important;
+}
+
+/* linkedin */
+.social-media .linkedin {
+	color: var(--linkedin-color) !important;
+}
+
+.social-media .btn-linkedin {
+	background-color: var(--linkedin-color) !important;
+}
+
+/* instagram */
+.social-media .instagram {
+	color: var(--instagram-color) !important;
+}
+
+.social-media .btn-instagram {
+	background-color: var(--instagram-color) !important;
+}
+
+/* pinterest */
+.social-media .pinterest {
+	color: var(--pinterest-color) !important;
+}
+
+.social-media .btn-pinterest {
+	background-color: var(--pinterest-color) !important;
+}
+
+/* whatsapp */
+.social-media .whatsapp {
+	color: var(--whatsapp-color) !important;
+}
+
+.social-media .btn-whatsapp {
+	background-color: var(--whatsapp-color) !important;
+}
+
+/* snapchat */
+.social-media .snapchat {
+	color: var(--snapchat-color) !important;
+}
+
+.social-media .btn-snapchat {
+	background-color: var(--snapchat-color) !important;
+}
+
+/* telegram */
+.social-media .telegram {
+	color: var(--telegram-color) !important;
+}
+
+.social-media .btn-telegram {
+	background-color: var(--telegram-color) !important;
+}
+
+/* messenger */
+.social-media .messenger {
+	color: var(--messenger-color) !important;
+}
+
+.social-media .btn-messenger {
+	background-color: var(--messenger-color) !important;
+}
+
+/* skype */
+.social-media .skype {
+	color: var(--skype-color) !important;
+}
+
+.social-media .btn-skype {
+	background-color: var(--skype-color) !important;
+}
+
+/* slack */
+.social-media .slack {
+	color: var(--slack-color) !important;
+}
+
+.social-media .btn-slack {
+	background-color: var(--slack-color) !important;
+}
+
+/* vk */
+.social-media .vk {
+	color: var(--vk-color) !important;
+}
+
+.social-media .btn-vk {
+	background-color: var(--vk-color) !important;
+}
+
+/* tumblr */
+.social-media .tumblr {
+	color: var(--tumblr-color) !important;
+}
+
+.social-media .btn-tumblr {
+	background-color: var(--tumblr-color) !important;
+}
+
+/* youtube */
+.social-media .youtube {
+	color: var(--youtube-color) !important;
+}
+
+.social-media .btn-youtube {
+	background-color: var(--youtube-color) !important;
+}
+
+/* tiktok */
+.social-media .tiktok {
+	color: var(--tiktok-color) !important;
+}
+
+.social-media .btn-tiktok {
+	background-color: var(--tiktok-color) !important;
+}
+
+/* tiktok */
+.social-media .tiktok-pink {
+	color: var(--tiktok-pink-color) !important;
+}
+
+.social-media .btn-tiktok-pink {
+	background-color: var(--tiktok-pink-color) !important;
+}
+
+/* vimeo */
+.social-media .vimeo {
+	color: var(--vimeo-color) !important;
+}
+
+.social-media .btn-vimeo {
+	background-color: var(--vimeo-color) !important;
+}
+
+/* flickr */
+.social-media .flickr {
+	color: var(--flickr-color) !important;
+}
+
+.social-media .btn-flickr {
+	background-color: var(--flickr-color) !important;
+}
+
+/* flickr-blue */
+.social-media .flickr-blue {
+	color: var(--flickr-blue-color) !important;
+}
+
+.social-media .btn-flickr-blue {
+	background-color: var(--flickr-blue-color) !important;
+}
+
+/* apple */
+.social-media .apple {
+	color: var(--apple-color) !important;
+}
+
+.social-media .btn-apple {
+	background-color: var(--apple-color) !important;
+}
+
+/* apple-dark */
+.social-media .apple-dark {
+	color: var(--apple-dark-color) !important;
+}
+
+.social-media .btn-apple-dark {
+	background-color: var(--apple-dark-color) !important;
+}
+
+/* apple-gray */
+.social-media .apple-gray {
+	color: var(--apple-gray-color) !important;
+}
+
+.social-media .btn-apple-gray {
+	background-color: var(--apple-gray-color) !important;
+}
+
+/* mastodon */
+.social-media .mastodon {
+	color: var(--mastodon-color) !important;
+}
+
+.social-media .btn-mastodon {
+	background-color: var(--mastodon-color) !important;
+}
+
+/* odnoklassniki */
+.social-media .odnoklassniki {
+	color: var(--odnoklassniki-color) !important;
+}
+
+.social-media .btn-odnoklassniki {
+	background-color: var(--odnoklassniki-color) !important;
+}
+
+/* pocket */
+.social-media .pocket {
+	color: var(--pocket-color) !important;
+}
+
+.social-media .btn-pocket {
+	background-color: var(--pocket-color) !important;
+}
+
+/* reddit */
+.social-media .reddit {
+	color: var(--reddit-color) !important;
+}
+
+.social-media .btn-reddit {
+	background-color: var(--reddit-color) !important;
+}
+
+/* microsoft-teams */
+.social-media .microsoft-teams {
+	color: var(--microsoft-teams-color) !important;
+}
+
+.social-media .btn-microsoft-teams {
+	background-color: var(--microsoft-teams-color) !important;
+}
+
+/* viber */
+.social-media .viber {
+	color: var(--viber-color) !important;
+}
+
+.social-media .btn-viber {
+	background-color: var(--viber-color) !important;
+}
+
+/* android */
+.social-media .android {
+	color: var(--android-color) !important;
+}
+
+.social-media .btn-android {
+	background-color: var(--android-color) !important;
+}
+
+/* For all */
+.social-media .btn-facebook, .social-media .btn-facebook a,
+.social-media .btn-facebook-old, .social-media .btn-facebook-old a,
+.social-media .btn-twitter, .social-media .btn-twitter a,
+.social-media .btn-x-twitter, .social-media .btn-x-twitter a,
+.social-media .btn-google, .social-media .btn-google a,
+.social-media .btn-google-plus, .social-media .btn-google-plus a,
+.social-media .btn-linkedin, .social-media .btn-linkedin a,
+.social-media .btn-apple-dark, .social-media .btn-apple-dark a,
+.social-media .btn-apple-gray, .social-media .btn-apple-gray a,
+.social-media .btn-youtube, .social-media .btn-youtube a,
+.social-media .btn-tiktok, .social-media .btn-tiktok a,
+.social-media .btn-tiktok-pink, .social-media .btn-tiktok-pink a,
+.social-media .btn-vimeo, .social-media .btn-vimeo a,
+.social-media .btn-instagram, .social-media .btn-instagram a,
+.social-media .btn-pinterest, .social-media .btn-pinterest a,
+.social-media .btn-whatsapp, .social-media .btn-whatsapp a,
+.social-media .btn-telegram, .social-media .btn-telegram a,
+.social-media .btn-messenger, .social-media .btn-messenger a,
+.social-media .btn-skype, .social-media .btn-skype a,
+.social-media .btn-vk, .social-media .btn-vk a,
+.social-media .btn-tumblr, .social-media .btn-tumblr a,
+.social-media .btn-flickr, .social-media .btn-flickr a,
+.social-media .btn-flickr-blue, .social-media .btn-flickr-blue a,
+.social-media .btn-slack, .social-media .btn-slack a,
+.social-media .btn-mastodon, .social-media .btn-mastodon a,
+.social-media .btn-odnoklassniki, .social-media .btn-odnoklassniki a,
+.social-media .btn-pocket, .social-media .btn-pocket a,
+.social-media .btn-reddit, .social-media .btn-reddit a,
+.social-media .btn-microsoft-teams, .social-media .btn-microsoft-teams a,
+.social-media .btn-viber, .social-media .btn-viber a,
+.social-media .btn-android, .social-media .btn-android a {
+	color: #ffffff !important;
+}
+
+.social-media .btn-snapchat, .social-media .btn-snapchat a,
+.social-media .btn-apple, .social-media .btn-apple a {
+	color: #000000 !important;
+}

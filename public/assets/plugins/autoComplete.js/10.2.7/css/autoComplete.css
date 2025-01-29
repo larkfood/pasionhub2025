@@ -1,0 +1,86 @@
+.autoComplete_wrapper {
+	position: relative;
+}
+
+ul.auto-complete-results {
+	position: fixed; /* Need to be changed to "absolute" in JS */
+	max-height: 382px; /* 372-36 (with "border-top: 0") | 382-38 (with "border-top: 1px") */
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+	border: solid 1px var(--border-color);
+	/* border-radius: 7px; */
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	outline: none;
+}
+
+ul.auto-complete-results > li {
+	padding: 10px 20px;
+	list-style: none;
+	text-align: left;
+	font-size: 14px;
+	color: #212121;
+	transition: all 0.1s ease-in-out;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-top: 1px solid  var(--border-color);
+}
+
+ul.auto-complete-results > li:first-child {
+	border-top: none;
+}
+
+ul.auto-complete-results > li:hover {
+	cursor: pointer;
+	background-color: rgba(123, 123, 123, 0.1);
+}
+
+ul.auto-complete-results > li::selection {
+	color: rgba(#ffffff, 0);
+	background-color: rgba(#ffffff, 0);
+}
+
+ul.auto-complete-results > li mark::selection {
+	color: rgba(#ffffff, 0);
+	background-color: rgba(#ffffff, 0);
+}
+
+ul.auto-complete-results > li[aria-selected="true"] {
+	background-color: rgba(123, 123, 123, 0.1);
+}
+
+ul.auto-complete-results > li .auto-complete-item-highlight {
+	background-color: transparent;
+	color: inherit;
+	font-weight: bold;
+	padding: 0;
+}
+
+ul.auto-complete-results > .auto-complete-no-results {
+	background-color: transparent;
+	color: inherit;
+	height: 38px;
+}
+
+/* Dark Mode */
+html[theme=dark] ul.auto-complete-results {
+	background: var(--background--darker) !important;
+}
+
+html[theme=dark] ul.auto-complete-results > li {
+	color: var(--text-color-lighter);
+	border-bottom-color: var(--border-color);
+}
+
+html[theme=dark] ul.auto-complete-results > li:hover {
+	background: var(--background--lighter);
+	color: var(--text-color) !important;
+	border-color: var(--nav-border);
+}
+
+html[theme=dark] ul.auto-complete-results > .auto-complete-no-results {
+	color: var(--text-color-lighter);
+}
