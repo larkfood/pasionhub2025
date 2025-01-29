@@ -1,0 +1,25 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "npm run development",
+		"development": "mix",
+		"watch": "mix watch",
+		"watch-poll": "mix watch -- --watch-options-poll=1000",
+		"hot": "mix watch --hot",
+		"prod": "npm run production",
+		"production": "mix --production"
+	},
+	"devDependencies": {
+		"@pnotify/confirm": "^5.2.0",
+		"@pnotify/core": "^5.2.0",
+		"@pnotify/font-awesome5": "^5.2.0",
+		"@pnotify/font-awesome5-fix": "^5.2.0",
+		"cross-env": "^7.0",
+		"jquery": "^3.3.1",
+		"laravel-mix": "^6.0.49",
+		"lodash": "^4.17.21",
+		"resolve-url-loader": "^5.0.0",
+		"sass": "^1.83.0",
+		"sass-loader": "^16.0.4"
+	}
+}
